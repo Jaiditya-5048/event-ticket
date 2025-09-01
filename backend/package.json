@@ -1,0 +1,38 @@
+{
+  "name": "react-backend-mysql",
+  "version": "1.0.0",
+  "description": "Backend for React app with MySQL database",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "seed:users": "node seed/usersSeeder.js",
+    "seed:all": "node seed/allSeeder.js",
+    "seed:ticketTypes": "node seed/ticketTypeSeeder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "nodemon": "^3.0.3",
+    "typescript": "^5.8.3"
+  }
+}
